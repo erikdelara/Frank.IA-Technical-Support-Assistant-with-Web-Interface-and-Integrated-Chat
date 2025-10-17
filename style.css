@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(images/background.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    font-family: sans-serif;
+}
+
+
+.logo {
+    height: 80px;
+    width: 250px;
+    background-color: aqua;
+    position: absolute;
+    left: 110px;
+    top: 10px;
+}
+
+.hover {
+    height: 80px;
+    width: 800px;
+    background-color: rgb(25, 0, 255);
+    position: absolute;
+    left: 50%;
+    top: 10px;
+    transform: translateX(-50%);
+}
+
+.info-text {
+    height: 500px;
+    width: 800px;
+    background-color: rgb(255, 0, 157);
+    position: absolute;
+    left: 100px;
+    top: 150px;
+}
+
+.botton {
+    height: 100px;
+    width: 300px;
+    background-color: rgb(229, 255, 0);
+    position: absolute;
+    left: 600px;
+    top: 700px;
+}
+
+.image-robot {
+    height: 650px;
+    width: 700px;
+    background-color: rgb(25, 0, 255);
+    position: absolute;
+    left: 60%;
+    top: 150px;
+   
+}
+
+.description-robot {
+    height: 70px;
+    width: 700px;
+    background-color: rgb(255, 0, 0);
+    position: absolute;
+    left: 60%;
+    top: 810px;
+}
+
+/*  
+Notebook pequeno - 1280 × 800
+Celular grande - 430 × 932
+Celular médio - 412 × 915
+
+
+*/
+
+@media (max-width: 1280px) {
+
+        body {
+        background-size: cover;
+    }
+.logo {
+        width:250px;
+        height:80px;
+        left: 60px;
+        top: 20px;
+    }
+
+    .hover {
+        width: 550px;
+        height: 80px;
+        top: 20px;
+        left: 800px;
+    }
+
+    .info-text {
+        width: 600px;
+        height: 400px;
+        top: 200px;
+        left: 80px;
+    }
+
+    .botton {
+        width: 200px;
+        height: 70px;
+        top: 610px;
+        left: 480px;
+    }
+
+    .image-robot {
+        width: 500px;
+        height: 450px;
+        top: 200px;
+        left: 75%;
+        transform: translateX(-50%);
+    }
+
+    .description-robot {
+        width: 500px;
+        height: 50px;
+        top: 655px;
+        left: 75%;
+        transform: translateX(-50%);
+    }
+   
+}
+
+
